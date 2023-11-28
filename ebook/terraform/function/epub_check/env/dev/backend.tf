@@ -1,7 +1,6 @@
 terraform {
   backend "remote" {
     organization = "Test-Abhinav"
-
     workspaces {
       name = "Repo118"
     }
