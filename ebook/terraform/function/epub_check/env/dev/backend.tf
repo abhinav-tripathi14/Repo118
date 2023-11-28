@@ -1,18 +1,11 @@
-provider "aws" {
-  region = "ap-northeast-1"
-}
-
 terraform {
   backend "remote" {
-    organization = "mediado"
+    organization = "Test-Abhinav"
 
     workspaces {
-      name = "ebook_dev_function_epub_check"
+      name = "Repo118"
     }
   }
-  # backend "local" {
-  #   path = "terraform.tfstate"
-  # }
   required_providers {
     aws = {
       source  = "hashicorp/aws"
