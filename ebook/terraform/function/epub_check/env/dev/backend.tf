@@ -1,5 +1,5 @@
 terraform {
-  backend "remote" {
+  cloud {
     organization = "Test-Abhinav"
     workspaces {
       name = "Repo118"
