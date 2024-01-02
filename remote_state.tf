@@ -8,7 +8,6 @@ data "terraform_remote_state" "network" {
     }
   }
 }
-
 data "terraform_remote_state" "ebook_file_upload_service_backend" {
   backend = "remote"
     config = {
